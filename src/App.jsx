@@ -1,13 +1,5 @@
-import Sidebar from "./components/sidebar";
-import Terminal from "./components/terminal";
+import Router from "./routes";
 
 export default function App() {
-  return (
-    <div className="flex h-screen">
-      <Sidebar />
-      <div className="flex-1 flex justify-center">
-        <Terminal />
-      </div>
-    </div>
-  );
+  return <Router />;
 }
