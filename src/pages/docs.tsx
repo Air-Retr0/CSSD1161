@@ -4,6 +4,7 @@ import DocsSidebar from "../components/sub/docs-sidebar";
 
 const Contents = () => {
   return (
+    // contents of docs page
     <main className="w-3/4 p-6 bg-slate-950 text-white">
       <Breadcrumbs path={["Home", "Documentation", "Getting Started"]} />
       <h1 className="text-2xl font-bold mb-4">Getting Started</h1>
