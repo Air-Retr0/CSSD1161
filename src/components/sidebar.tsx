@@ -19,7 +19,7 @@ const Sidebar = () => {
         </button>
         <button
           className="w-full py-2 rounded bg-transparent flex items-center justify-start gap-2 px-4 hover:bg-white hover:text-black"
-          onClick={() => navigate("/script")}
+
         >
           <FaCode size={24} />
           Scripting

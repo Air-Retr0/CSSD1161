@@ -1,6 +1,7 @@
 import React from "react";
 import Breadcrumbs from "../components/sub/breadcrumbs";
 import DocsSidebar from "../components/sub/docs-sidebar";
+import Sidebar from "../components/sidebar";
 
 const Contents = () => {
   return (
@@ -23,6 +24,7 @@ const Contents = () => {
 const DocumentationPage = () => {
   return (
     <div className="flex">
+      <Sidebar />
       <DocsSidebar />
       <Contents />
     </div>
