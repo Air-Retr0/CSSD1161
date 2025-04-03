@@ -1,9 +1,9 @@
 import Home from "./pages/home";
 import Docs from "./pages/docs";
-import Login from "./pages/login";
 import Lost from "./pages/lost";
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from "./pages/about";
+import Login from "./components/login";
 
 export default function Router() {
   return (
@@ -11,8 +11,8 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="docs" element={<Docs />} />
-        <Route path="login" element={<Login />} />
         <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<Lost />} />
       </Routes>
     </BrowserRouter>

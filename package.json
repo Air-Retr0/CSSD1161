@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.25.6",
+    "@clerk/react-router": "^1.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-terminal": "^1.4.5"

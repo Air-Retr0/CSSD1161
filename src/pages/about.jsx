@@ -10,10 +10,9 @@ const AboutUsContent = () => {
 
       <div className="flex justify-center gap-12">
 
-        {/* Developer 1 Card */}
         <div className="bg-black p-4 rounded-lg w-64 text-center mt-40">
           <img
-            src="path_to_image/jahiem.jpg" // Replace here
+            src="images/jah.jpg"
             alt="Jahiem Allen"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
@@ -23,7 +22,7 @@ const AboutUsContent = () => {
 
         <div className="bg-black p-4 rounded-lg w-64 text-center mt-40">
           <img
-            src="images/farod.jpg" 
+            src="images/farod.jpg"
             alt="Farid Zaki"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
