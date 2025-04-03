@@ -8,6 +8,6 @@ export default function App() {
       <div className="flex-1 flex justify-end">
         <Terminal />
       </div>
-    </div>
+    </div> // react implementation for home page. //
   );
 }
