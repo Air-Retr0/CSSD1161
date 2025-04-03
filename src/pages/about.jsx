@@ -23,12 +23,12 @@ const AboutUsContent = () => {
 
         <div className="bg-black p-4 rounded-lg w-64 text-center mt-40">
           <img
-            src="path_to_image/farid.jpg" // Replace here
+            src="images/farod.jpg" 
             alt="Farid Zaki"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
           <h2 className="text-xl font-semibold text-white">Farid Zaki</h2>
-          <p className="text-lg text-gray-400">ADD ROLE HERE</p>
+          <p className="text-lg text-gray-400">UX/UI Designer</p>
         </div>
 
         <div className="bg-black p-4 rounded-lg w-64 text-center mt-40">
