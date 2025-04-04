@@ -40,7 +40,7 @@ export default function Login() {
                 </div>
                 <SignInButton>
                   <button className="w-full px-4 py-2 bg-white hover:bg-black text-black hover:text-white font-medium border border-black rounded-md transition-colors">
-                    Continue
+                    <a href="http://localhost:5173/">Continue</a>
                   </button>
                 </SignInButton>
               </div>
@@ -49,9 +49,9 @@ export default function Login() {
             <SignedIn>
               <div className="space-y-4">
                 <h3 className="text-lg font-medium">Welcome back</h3>
-                <p className="text-sm text-gray-400">We're glad to see you again.</p>
-                <div className="pt-4 border-t border-gray-800">
-                  <button className="w-full px-4 py-2 text-sm bg-gray-800 hover:bg-gray-700 rounded-md transition-colors">
+                <p className="text-sm text-black">We're glad to see you again.</p>
+                <div className="pt-4 border-t border-black">
+                  <button className="w-full px-4 py-2 border-black border-2 text-sm bg-white text-black rounded-md transition-colors">
                     Go to Dashboard
                   </button>
                 </div>
