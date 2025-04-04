@@ -32,12 +32,12 @@ const AboutUsContent = () => {
 
         <div className="bg-black p-4 rounded-lg w-64 text-center mt-40">
           <img
-            src="path_to_image/jaelan.jpg" // Replace here
+            src="images/jarlan.jpg"
             alt="Jaelan Cruz"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
           <h2 className="text-xl font-semibold text-white">Jaelan Cruz</h2>
-          <p className="text-lg text-gray-400">ADD ROLE HERE</p>
+          <p className="text-lg text-gray-400">Tester / React Newbie</p>
         </div>
 
       </div>
