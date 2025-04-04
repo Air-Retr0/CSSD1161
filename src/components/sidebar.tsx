@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { FaCode, FaBook, FaTerminal } from "react-icons/fa";
+import { FaCode, FaBook, FaTerminal, FaSignInAlt, FaUser } from "react-icons/fa";
 import { SiMaterialformkdocs } from "react-icons/si";
 
 const Sidebar = () => {
@@ -17,13 +17,7 @@ const Sidebar = () => {
           <FaTerminal size={24} />
           Terminal
         </button>
-        <button
-          className="w-full py-2 rounded bg-transparent flex items-center justify-start gap-2 px-4 hover:bg-white hover:text-black"
 
-        >
-          <FaCode size={24} />
-          Scripting
-        </button>
         <button
           className="w-full py-2 rounded bg-transparent flex items-center justify-start gap-2 px-4 hover:bg-white hover:text-black"
           onClick={() => navigate("/docs")}
@@ -37,6 +31,17 @@ const Sidebar = () => {
         >
           <FaBook size={24} />
           About
+        </button>
+      </div>
+
+      <div className="w-full border-t border-white my-[40rem]"></div>
+      <div className="absolute bottom-8 w-full flex justify-center">
+        <button
+          className="flex items-center gap-2 py-2 px-4 bg-transparent text-white border rounded hover:bg-white hover:text-black"
+          onClick={() => navigate("/login")}
+        >
+          <FaUser size={24} />
+          Sign In
         </button>
       </div>
     </div>

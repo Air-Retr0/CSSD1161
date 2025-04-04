@@ -52,7 +52,7 @@ export default function Login() {
                 <p className="text-sm text-black">We're glad to see you again.</p>
                 <div className="pt-4 border-t border-black">
                   <button className="w-full px-4 py-2 border-black border-2 text-sm bg-white text-black rounded-md transition-colors">
-                    Go to Dashboard
+                    <a href="http://localhost:5173/">Go to Dashboard</a>
                   </button>
                 </div>
               </div>
